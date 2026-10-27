@@ -1,0 +1,6 @@
+{
+  "name": "documentation-writing",
+  "version": "1.0.0",
+  "description": "Documentation-writing rules, plus a hook that blocks commit messages, PR bodies and docs that break them.",
+  "author": { "name": "David Gibbons", "email": "david@dgibbons.net" }
+}

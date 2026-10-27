@@ -1,0 +1,16 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "Bash|Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "${CLAUDE_PLUGIN_ROOT}/hooks/doc-writing-context.py",
+            "statusMessage": "documentation-writing rules"
+          }
+        ]
+      }
+    ]
+  }
+}

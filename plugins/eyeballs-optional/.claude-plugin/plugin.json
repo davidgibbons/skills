@@ -1,0 +1,6 @@
+{
+  "name": "eyeballs-optional",
+  "version": "1.0.0",
+  "description": "Ask a jev model whether a GitHub PR is eyeballs optional (EO) or eyeballs required (ER).",
+  "author": { "name": "David Gibbons", "email": "david@dgibbons.net" }
+}

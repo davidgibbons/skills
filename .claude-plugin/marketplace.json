@@ -1,0 +1,16 @@
+{
+  "name": "davidgibbons-skills",
+  "owner": { "name": "David Gibbons", "email": "david@dgibbons.net" },
+  "plugins": [
+    {
+      "name": "documentation-writing",
+      "source": "./plugins/documentation-writing",
+      "description": "Documentation-writing rules, plus a hook that blocks commit messages, PR bodies and docs that break them."
+    },
+    {
+      "name": "eyeballs-optional",
+      "source": "./plugins/eyeballs-optional",
+      "description": "Ask a jev model whether a GitHub PR is eyeballs optional (EO) or eyeballs required (ER)."
+    }
+  ]
+}
